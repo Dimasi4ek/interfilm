@@ -1262,7 +1262,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover{
 }
 .uk-navbar-nav>li{
 	float:left;
-	position:relative
+	position:relative;
 }
 .uk-navbar-nav>li>a{
 	display:block;

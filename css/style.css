@@ -367,7 +367,7 @@ section {
     z-index: 11;
 }
 .tc-header .tc-navbar .uk-navbar-nav > li > a {
-    height: 70px;
+    height: 0;
     line-height: 70px;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
@@ -1456,4 +1456,5 @@ div[class*="filter-"] ul li {
         font-size: 24px;
         line-height: normal;
     }
+}  }
 }
