@@ -945,6 +945,7 @@ div[class*="filter-"] ul li {
     transform: scale(1);
     -webkit-transition: .5s ease all;
     transition: .5s ease all;
+    border-radius: 20px;
 }
 .tc-team .team-style1:hover .team-photo img {
     -webkit-transform: scale(1.2);

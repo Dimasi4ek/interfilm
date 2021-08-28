@@ -78,7 +78,7 @@ audio,canvas,img,svg,video{
 	max-width:none
 }
 img{
-	border:0
+	border: 30;
 }
 svg:not(:root){
 	overflow:hidden
