@@ -4,7 +4,7 @@ html{
 	-webkit-text-size-adjust:100%;
 	-ms-text-size-adjust:100%;
 	background:#fff;
-	color:#444
+	color:#444;
 }
 body{
 	margin:0
@@ -72,7 +72,7 @@ audio,canvas,iframe,img,svg,video{
 audio,canvas,img,svg,video{
 	max-width:100%;
 	height:auto;
-	box-sizing:border-box
+	box-sizing:border-box;
 }
 .uk-img-preserve,.uk-img-preserve audio,.uk-img-preserve canvas,.uk-img-preserve img,.uk-img-preserve svg,.uk-img-preserve video{
 	max-width:none
@@ -172,7 +172,7 @@ pre{
 ::selection{
 	background:#39f;
 	color:#fff;
-	text-shadow:none
+	text-shadow:none;
 }
 article,aside,details,figcaption,figure,footer,header,main,nav,section,summary{
 	display:block
@@ -203,7 +203,7 @@ iframe{
 	flex-wrap:wrap;
 	margin:0;
 	padding:0;
-	list-style:none
+	/* list-style:none */
 }
 .uk-grid:after,.uk-grid:before{
 	content:"";
@@ -1869,11 +1869,11 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover{
 	background:#EEE
 }
 .uk-form input,.uk-form select,.uk-form textarea{
-	box-sizing:border-box;
-	margin:0;
-	border-radius:0;
-	font:inherit;
-	color:inherit
+	/* box-sizing:border-box; */
+	/* margin:0; */
+	/* border-radius:0; */
+	/* font:inherit; */
+	/* color:inherit; */
 }
 .uk-form select{
 	text-transform:none
@@ -1887,10 +1887,10 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover{
 	padding:0
 }
 .uk-form input[type=checkbox],.uk-form input[type=radio]{
-	padding:0
+	padding:0;
 }
 .uk-form input[type=checkbox]:not(:disabled),.uk-form input[type=radio]:not(:disabled){
-	cursor:pointer
+	cursor:pointer;
 }
 .uk-form input:not([type]),.uk-form input[type=text],.uk-form input[type=password],.uk-form input[type=email],.uk-form input[type=url],.uk-form input[type=search],.uk-form input[type=tel],.uk-form input[type=number],.uk-form input[type=datetime],.uk-form textarea{
 	-webkit-appearance:none
@@ -1923,7 +1923,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover{
 	margin-bottom:0
 }
 .uk-form input:not([type]),.uk-form input[type=text],.uk-form input[type=password],.uk-form input[type=email],.uk-form input[type=url],.uk-form input[type=search],.uk-form input[type=tel],.uk-form input[type=number],.uk-form input[type=datetime],.uk-form input[type=datetime-local],.uk-form input[type=date],.uk-form input[type=month],.uk-form input[type=time],.uk-form input[type=week],.uk-form input[type=color],.uk-form select,.uk-form textarea{
-	height:30px;
+	height: 30px;
 	max-width:100%;
 	padding:4px 6px;
 	border:1px solid #ddd;
@@ -1932,7 +1932,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover{
 	-webkit-transition:all .2s linear;
 	-webkit-transition-property:border,background,color,box-shadow,padding;
 	transition:all .2s linear;
-	transition-property:border,background,color,box-shadow,padding
+	transition-property:border,background,color,box-shadow,padding;
 }
 .uk-form input:not([type]):focus,.uk-form input[type=text]:focus,.uk-form input[type=password]:focus,.uk-form input[type=email]:focus,.uk-form input[type=url]:focus,.uk-form input[type=search]:focus,.uk-form input[type=tel]:focus,.uk-form input[type=number]:focus,.uk-form input[type=datetime]:focus,.uk-form input[type=datetime-local]:focus,.uk-form input[type=date]:focus,.uk-form input[type=month]:focus,.uk-form input[type=time]:focus,.uk-form input[type=week]:focus,.uk-form input[type=color]:focus,.uk-form select:focus,.uk-form textarea:focus{
 	border-color:#99baca;

@@ -68,19 +68,57 @@
                             <div class="uk-grid" data-uk-grid-margin="">
                                 <div class="uk-width-medium-1-2">
                                     <div class="form-field">
-                                        <input type="text" placeholder="Ваше имя" name="name" id="name" required>
+                                        <input type="text" placeholder="Ваше ФИО" name="name" id="name" required>
                                     </div>
                                     <div class="form-field">
-                                        <input type="text" placeholder="Ваша фамилия" name="surname" id="name" required>
+                                        <select>
+                                            <option value="Не указано">Укажите пол</option>
+                                            <option value="Мужской">Мужской</option>
+                                            <option value="Женский">Женский</option>
+                                        </select>
                                     </div>
                                     <div class="form-field">
-                                        <input type="email" name="email" id="email" placeholder="Email" required>
+                                        <input type="text" placeholder="Дата рождения" name="data" id="data" required>
+                                    </div>
+                                    <div class="form-field">
+                                        <input type="email" placeholder="Email" name="email" id="email" required>
+                                    </div>
+                                    <div class="form-field">
+                                        <input type="text" placeholder="Instagram" name="instagram" id="instagram">
                                     </div>
                                     <div class="form-field">
                                         <input class="imaskjs__input_tel" type="phone" name="phone" id="phone" placeholder="Номер телефона" required>
                                     </div>
                                     <div class="form-field">
-                                        <input type="text" name="file" id="file" placeholder="Ссылка на резюме" required>
+                                        <p><strong>Антропологический тип внешности (нужное выбрать):</strong></p>
+                                        <label>
+                                            <input class="custom-checkbox" type="checkbox">Славянский
+                                        </label>
+                                        <br>
+                                        <label>
+                                            <input class="custom-checkbox" type="checkbox">Среднеевропейский</label>
+                                        <label>
+                                            <input class="custom-checkbox" type="checkbox">Семитский
+                                        </label>
+                                        <label>
+                                            <input class="custom-checkbox" type="checkbox">Скандинавский
+                                        </label>
+                                        <label>
+                                            <input class="custom-checkbox" type="checkbox">Кавказский
+                                        </label>
+                                        <label>
+                                            <input class="custom-checkbox" type="checkbox">Среднеазиатски
+                                        </label>
+                                        <label>
+                                            <input class="custom-checkbox" type="checkbox">Негритянский
+                                        </label>
+                                        <label>
+                                            <input class="custom-checkbox" type="checkbox">Монгольский
+                                        </label>
+                                        <label>
+                                            <input class="custom-checkbox" type="checkbox">Латиноамериканский
+                                        </label>
+                                        
                                     </div>
                                 </div>
                                 <div class="uk-width-medium-1-2">
@@ -154,15 +192,14 @@
     <script src="vendor/uikit/js/uikit.min.js"></script>
     <script src="vendor/uikit/js/components/lightbox.min.js"></script>
     <script src="https://unpkg.com/imask"></script>
-
-<script>
-var elements = document.getElementsByClassName('imaskjs__input_tel');
-for (var i = 0; i < elements.length; i++) {
-  new IMask(elements[i], {
-    mask: '+{38}(000)000-00-00',
-  });
-}
-</script>
+    <script>
+    var elements = document.getElementsByClassName('imaskjs__input_tel');
+    for (var i = 0; i < elements.length; i++) {
+        new IMask(elements[i], {
+            mask: '+{38}(000)000-00-00',
+        });
+    }
+    </script>
 </body>
 
 </html>
