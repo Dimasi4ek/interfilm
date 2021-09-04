@@ -18,7 +18,8 @@ a:active,a:hover{
 .uk-link,a{
 	color:#07D;
 	text-decoration:none;
-	cursor:pointer
+	cursor:pointer;
+	text-decoration: none !important;
 }
 .uk-link:hover,a:hover{
 	color:#059;
@@ -1868,12 +1869,12 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover{
 .uk-table-hover tbody tr:hover{
 	background:#EEE
 }
-.uk-form input,.uk-form select,.uk-form textarea{
-	/* box-sizing:border-box; */
-	/* margin:0; */
-	/* border-radius:0; */
-	/* font:inherit; */
-	/* color:inherit; */
+textarea{
+	box-sizing:border-box;
+	margin: 0;
+	border-radius:0;
+	font:inherit;
+	color:inherit;
 }
 .uk-form select{
 	text-transform:none
@@ -1886,10 +1887,10 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover{
 	border:0;
 	padding:0
 }
-.uk-form input[type=checkbox],.uk-form input[type=radio]{
-	padding:0;
+.uk-form{
+	/* padding:0; */
 }
-.uk-form input[type=checkbox]:not(:disabled),.uk-form input[type=radio]:not(:disabled){
+.uk-form{
 	cursor:pointer;
 }
 .uk-form input:not([type]),.uk-form input[type=text],.uk-form input[type=password],.uk-form input[type=email],.uk-form input[type=url],.uk-form input[type=search],.uk-form input[type=tel],.uk-form input[type=number],.uk-form input[type=datetime],.uk-form textarea{

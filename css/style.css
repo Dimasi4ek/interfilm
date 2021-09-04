@@ -1001,7 +1001,7 @@ div[class*="filter-"] ul li {
 .tc-pricing .pricing-head {
     position: relative;
     text-align: center;
-    padding: 40px;
+    padding: 25px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
@@ -1018,10 +1018,11 @@ div[class*="filter-"] ul li {
     transform: translateX(-50%);
 }
 .tc-pricing .pricing-head .name {
-    font-size: 28px;
+    font-size: 25px;
     width: 100%;
     margin-bottom: 8px;
     padding-bottom: 25px;
+    text-align: center;
     border-bottom: 3px solid rgba(0, 0, 0, 0.05);
 }
 .tc-pricing .pricing-head .price {
@@ -1370,6 +1371,14 @@ div[class*="filter-"] ul li {
 .custom-checkbox {
     width: 35% !important;
     height: 15px !important;
+}
+
+.custom-checkbox2 {
+    /* width: 40% !important; */
+    height: 15px !important;
+}
+.mt-5{
+    margin-top: 50px;
 }
 .tc-contact .form-field textarea {
     background: transparent;
