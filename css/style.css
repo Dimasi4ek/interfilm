@@ -47,7 +47,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #fff;
+    background-color: black;
     letter-spacing: 1.5px;
 }
 h1,
@@ -60,7 +60,7 @@ h6 {
     letter-spacing: 2px;
 }
 p {
-    /* color: #797979; */
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     line-height: 26px;
@@ -84,7 +84,7 @@ section {
     02. Global classes
 ---------------------------*/
 .sec-color {
-    background-color: #f9f9f9;
+    background-color: black;
 }
 .bg-white {
     background-color: #fff;
@@ -705,7 +705,7 @@ section {
 ---------------------------*/
 .tc-footer {
     position: relative;
-    background: #232323;
+    background: black;
     padding-top: 40px;
     padding-bottom: 40px;
     font-size: 13px;
@@ -1471,4 +1471,5 @@ div[class*="filter-"] ul li {
         line-height: normal;
     }
 }  }
+}}
 }}
